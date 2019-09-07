@@ -2,10 +2,10 @@ const theOneFunc = sec => {
     console.log('Hello in ' +  sec + ' seconds');
 };
 
-setTimeout(theOneFunc, 4 * 1000, '4');
+setTimeout(theOneFunc, 4 * 1000, 4);
 
 // Hello after 4 seconds
-setTimeout(theOneFunc, 8 * 1000, '8');
+setTimeout(theOneFunc, 8 * 1000, 8);
 // Hello after 8 seconds
 
 // You can define only ONE function
