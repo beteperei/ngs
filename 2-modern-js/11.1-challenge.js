@@ -10,10 +10,7 @@ class Question {
         this.ansewrs=[];
         
     }
-    
-    print() {
-        console.log(`Titulo: ${this.titulo} `);
-        console.log(`Respuestas: ${this.ansewrs.push()}`)
+
     }
 
 }
