@@ -6,14 +6,14 @@
 let i=0;
 const texto = () => {
    
-    console.log('Hello after 0.5 seconds. MAYBE!');
+    console.log('Hello World');
     i++;
 
-    if (i == 100){
+    if (i == 5){
         clearInterval(time);
     }
 };
-const time = setInterval(texto,500);
+const time = setInterval(texto,1000);
 
 
    
